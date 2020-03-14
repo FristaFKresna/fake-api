@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": 2,
+      "user": "Bambang",
+      "todo": "Tidur"
+    },
+    {
+      "id": 3,
+      "user": "Budi",
+      "todo": "Makan"
+    },
+    {
+      "user": "Antoni",
+      "todo": "Belajar",
+      "id": 5
+    },
+    {
+      "user": "Asep",
+      "todo": "Lari",
+      "id": 7
+    }
+  ]
+}

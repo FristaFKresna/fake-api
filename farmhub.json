@@ -1,0 +1,273 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "fikri@fikri.com",
+      "password": "123123",
+      "role": "penjual",
+      "fullname": "jamaludin fikri",
+      "address": "bandung",
+      "phone_number": "08234723847"
+    },
+    {
+      "email": "abc@def.com",
+      "password": "123",
+      "role": "penjual",
+      "fullname": "Aang",
+      "address": "Kuningan",
+      "phone_number": "0921383773737",
+      "id": 2
+    },
+    {
+      "email": "kresna@gmail.com",
+      "password": "1234",
+      "role": "penjual",
+      "fullname": "Frista Friciandi Kresna",
+      "address": "Bandung",
+      "phone_number": "08123456789",
+      "id": 3
+    },
+    {
+      "email": "ujang@ujang.com",
+      "password": "1234",
+      "role": "pembeli",
+      "fullname": "Ujang Sarujang",
+      "address": "Sukabumi",
+      "phone_number": "0123456789000",
+      "id": 4
+    },
+    {
+      "email": "budi@budi.com",
+      "password": "1234",
+      "role": "penjual",
+      "fullname": "Budi Sumarna",
+      "address": "Subang",
+      "phone_number": "0812345678",
+      "id": 5
+    },
+    {
+      "email": "orang@orang.com",
+      "password": "1234",
+      "role": "penjual",
+      "fullname": "Orang",
+      "address": "Banjar",
+      "phone_number": "0123456789101",
+      "id": 6
+    },
+    {
+      "email": "loren@loren.com",
+      "password": "1234",
+      "role": "penjual",
+      "fullname": "Orang",
+      "address": "subang",
+      "phone_number": "0123456789101",
+      "id": 7
+    },
+    {
+      "email": "aa@aa.com",
+      "password": "1234",
+      "role": "penjual",
+      "fullname": "",
+      "address": "",
+      "phone_number": "",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Apel Fuji",
+      "price": 20000,
+      "stock": 20,
+      "img_url": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/11/7/4503850/4503850_cce2c93e-03a7-41c1-a3ed-75a02be6431f_480_480.jpg",
+      "id_penjual": 1,
+      "deskripsi": "Apel Import Berkualitas"
+    },
+    {
+      "name": "Pisang Cavendish Sunpride",
+      "price": 30000,
+      "stock": 10,
+      "img_url": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/7/13/2114547/2114547_6f52965a-fdfc-4c4f-ba04-c1deb62e299f_929_929.jpg",
+      "deskripsi": "Pisang Cavendish Sunpride Import Berkualitas",
+      "id_penjual": 3,
+      "id": 2
+    },
+    {
+      "name": "Buah Leci",
+      "price": 20000,
+      "stock": 10,
+      "img_url": "https://cf.shopee.co.id/file/e4c65bb6c6de5b8a3eefc459153f6c65",
+      "deskripsi": "Benih Leci Berkualitas",
+      "id_penjual": 3,
+      "id": 5
+    },
+    {
+      "name": "Kiwi",
+      "price": 40000,
+      "stock": 10,
+      "img_url": "https://ecs7.tokopedia.net/img/cache/700/product-1/2016/11/3/4024484/4024484_1f9af91c-3002-4652-a118-53e9efe32323.jpg",
+      "deskripsi": "Kiwi Berkualitas",
+      "id_penjual": 1,
+      "id": 6
+    },
+    {
+      "name": "Salak",
+      "price": 30000,
+      "stock": 30,
+      "img_url": "https://cf.shopee.co.id/file/ae308c1e3623e0f2ba0457b2a94c4f41",
+      "deskripsi": "Salak Maknyuus!!",
+      "id_penjual": 5,
+      "id": 7
+    },
+    {
+      "name": "Anggur",
+      "price": 50000,
+      "stock": 40,
+      "img_url": "https://cf.shopee.co.id/file/8ab91a83d3d18fe39accb49b15ec6ec0",
+      "deskripsi": "Anggur Merah",
+      "id_penjual": 5,
+      "id": 8
+    },
+    {
+      "name": "Mangga",
+      "price": 20000,
+      "stock": 50,
+      "img_url": "https://s0.bukalapak.com/img/5021243332/w-1000/bibit_buah_mangga_harum_manis.png",
+      "deskripsi": "Mangga Top Markotop",
+      "id_penjual": 2,
+      "id": 9
+    },
+    {
+      "name": "Alpukat",
+      "price": 30000,
+      "stock": 30,
+      "img_url": "https://higaragro.com/wp-content/uploads/2019/02/Pusat-Distributor-Grosir-Eceran-Jual-Bibit-Tanaman-Buah-Alpukat-Mentega-Murah-online-di-kota-kabupaten.5.jpg",
+      "deskripsi": "Alpukat Segar",
+      "id_penjual": 3,
+      "id": 10
+    },
+    {
+      "name": "Rambutan",
+      "price": 40000,
+      "stock": 50,
+      "img_url": "https://cf.shopee.co.id/file/33fae496c53e82861adc58e0f715be99",
+      "deskripsi": "Rambutan",
+      "id_penjual": 6,
+      "id": 11
+    },
+    {
+      "name": "Susu Murni",
+      "price": 50000,
+      "stock": 50,
+      "img_url": "https://cdn2.tstatic.net/medan/foto/bank/images/inilah-5-ciri-ciri-susu-yang-sudah-tidak-layak-konsumsi-rasa-dan-baunya-berubah.jpg",
+      "deskripsi": "Susu Segar",
+      "id_penjual": 6,
+      "id": 12
+    },
+    {
+      "name": "Sapi Perah",
+      "price": 5000000,
+      "stock": 5,
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg",
+      "deskripsi": "Sapi Perah Berkualitas",
+      "id_penjual": 6,
+      "id": 13
+    },
+    {
+      "name": "Ayam Boiler",
+      "price": 30000,
+      "stock": 40,
+      "img_url": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/6/17/6413747/6413747_4ea31bea-0df7-47e7-87da-054521573377_700_700",
+      "deskripsi": "Ayam Boiler Mantap",
+      "id_penjual": 6,
+      "id": 14
+    },
+    {
+      "name": "Telur Ayam",
+      "price": 30000,
+      "stock": 50,
+      "img_url": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/1/24/27228651/27228651_73537011-6ca4-4bbf-b617-b3688dc51a94_629_597.png",
+      "deskripsi": "Telur Ayam Kampung Berkualitas Tidak Gampang Pecah",
+      "id_penjual": 6,
+      "id": 15
+    },
+    {
+      "name": "Telur Itik",
+      "price": 50000,
+      "stock": 100,
+      "img_url": "https://apollo-singapore.akamaized.net/v1/files/rgphv2d1podf3-ID/image;s=850x0",
+      "deskripsi": "Telur itik",
+      "id_penjual": 6,
+      "id": 16
+    },
+    {
+      "name": "Jahe",
+      "price": 100000,
+      "stock": 100,
+      "img_url": "https://cdn0-production-images-kly.akamaized.net/LWK21PL1BlKuETYNYl1O1ESK8Ws=/640x640/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1734382/original/007733800_1507554595-Manfaat-Jahe-Merah-untuk-Kesehatan-Pencernaan.jpg",
+      "deskripsi": "Jahe Mantap Segar, Anti Masuk Angin",
+      "id_penjual": 3,
+      "id": 17
+    },
+    {
+      "name": "Kol",
+      "price": 30000,
+      "stock": 40,
+      "img_url": "https://cf.shopee.co.id/file/0a1366c2167a23b37267c262a8e5e73f",
+      "deskripsi": "Kol Segar",
+      "id_penjual": 3,
+      "id": 18
+    },
+    {
+      "name": "Kunyit",
+      "price": "30000",
+      "stock": "30",
+      "img_url": "https://sumeks.co/assets/foto/2019/01/kunyit.jpg",
+      "deskripsi": "Kunyit",
+      "id_penjual": 3,
+      "id": 19
+    },
+    {
+      "name": "Nanas",
+      "price": "30000",
+      "stock": "10",
+      "img_url": "https://asset-a.grid.id/crop/49x52:489x339/700x465/photo/2020/01/05/1335171258.jpg",
+      "deskripsi": "Nanas segar",
+      "id_penjual": 7,
+      "id": 20
+    },
+    {
+      "name": "Apel Fuji",
+      "price": "30000",
+      "stock": "20",
+      "img_url": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/4/13/745401/745401_9b860dfc-21db-488b-9780-916054aa700e_1512_1512.jpg",
+      "deskripsi": "Apel Fuji Improt Grade A+++",
+      "id_penjual": 7,
+      "id": 21
+    }
+  ],
+
+  "carts": [
+    {
+      "id_user" : 4,
+      "product_name" : "Apel",
+      "image" : "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/4/13/745401/745401_9b860dfc-21db-488b-9780-916054aa700e_1512_1512.jpg",
+      "qty" : 10,
+      "price" : 12000
+    },
+    {
+      "id_user" : 4,
+      "product_name" : "Jeruk",
+      "image" : "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/4/13/745401/745401_9b860dfc-21db-488b-9780-916054aa700e_1512_1512.jpg",
+      "qty" : 10,
+      "price" : 12000
+    },
+    {
+      "id_user" : 4,
+      "product_name" : "Jeruk",
+      "image" : "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/4/13/745401/745401_9b860dfc-21db-488b-9780-916054aa700e_1512_1512.jpg",
+      "qty" : 10,
+      "price" : 12000
+    }
+  ]
+}

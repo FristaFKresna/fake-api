@@ -1,0 +1,34 @@
+{
+  "dataMurid": [
+    {
+      "id": 1,
+      "name": "Budi",
+      "year": 1993,
+      "imageUrl": "https://image.flaticon.com/icons/png/512/175/175062.png"
+    },
+    {
+      "name": "Steve Jobs",
+      "year": "1977",
+      "imageUrl": "https://onlinejpgtools.com/images/examples-onlinejpgtools/steve-jobs.png",
+      "id": 3
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "year": "1970",
+      "imageUrl": "https://pluspng.com/img-png/mark-zuckerberg-png-download-mark-zuckerberg-png-images-transparent-gallery-advertisement-376.png",
+      "id": 4
+    },
+    {
+      "name": "Barack Obama",
+      "year": "1970",
+      "imageUrl": "https://pngimg.com/uploads/barack_obama/barack_obama_PNG48.png",
+      "id": 5
+    },
+    {
+      "name": "Wolvrine",
+      "year": "1945",
+      "imageUrl": "https://assets.bonanzastatic.com/images/background_burner/remove-background-finish.png",
+      "id": 6
+    }
+  ]
+}
