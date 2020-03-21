@@ -24,7 +24,7 @@
       "role": "penjual",
       "fullname": "Frista Friciandi Kresna",
       "address": "Bandung",
-      "phone_number": "08123456789",
+      "phone_number": "0812345678910",
       "id": 3
     },
     {
@@ -71,6 +71,15 @@
       "address": "",
       "phone_number": "",
       "id": 8
+    },
+    {
+      "email": "123@123.com",
+      "password": "123",
+      "role": "pembeli",
+      "fullname": "",
+      "address": "",
+      "phone_number": "",
+      "id": 9
     }
   ],
   "products": [
@@ -244,30 +253,67 @@
       "deskripsi": "Apel Fuji Improt Grade A+++",
       "id_penjual": 7,
       "id": 21
+    },
+    {
+      "name": "Semangka",
+      "price": 30000,
+      "stock": 10,
+      "img_url": "https://cdn.idntimes.com/content-images/community/2019/06/pic-2-5ca1d27955f6a-660x400-a2a425a49fa50b90a5d4fad17a00faf2_600x400.jpg",
+      "deskripsi": "Semangka Import Seger Banget",
+      "id_penjual": 2,
+      "id": 22
     }
   ],
-
   "carts": [
     {
-      "id_user" : 4,
-      "product_name" : "Apel",
-      "image" : "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/4/13/745401/745401_9b860dfc-21db-488b-9780-916054aa700e_1512_1512.jpg",
-      "qty" : 10,
-      "price" : 12000
+      "id_user": "4",
+      "id_seller": 1,
+      "id_product": 1,
+      "product_name": "Apel Fuji",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/11/7/4503850/4503850_cce2c93e-03a7-41c1-a3ed-75a02be6431f_480_480.jpg",
+      "qty": 3,
+      "price": 20000,
+      "id": 4
     },
     {
-      "id_user" : 4,
-      "product_name" : "Jeruk",
-      "image" : "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/4/13/745401/745401_9b860dfc-21db-488b-9780-916054aa700e_1512_1512.jpg",
-      "qty" : 10,
-      "price" : 12000
+      "id_user": "4",
+      "id_seller": 6,
+      "id_product": 15,
+      "product_name": "Telur Ayam",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/1/24/27228651/27228651_73537011-6ca4-4bbf-b617-b3688dc51a94_629_597.png",
+      "qty": 2,
+      "price": 30000,
+      "id": 5
     },
     {
-      "id_user" : 4,
-      "product_name" : "Jeruk",
-      "image" : "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/4/13/745401/745401_9b860dfc-21db-488b-9780-916054aa700e_1512_1512.jpg",
-      "qty" : 10,
-      "price" : 12000
+      "id_user": "4",
+      "id_seller": 7,
+      "id_product": 20,
+      "product_name": "Nanas",
+      "image": "https://asset-a.grid.id/crop/49x52:489x339/700x465/photo/2020/01/05/1335171258.jpg",
+      "qty": 2,
+      "price": "30000",
+      "id": 6
+    },
+    {
+      "id_user": "9",
+      "id_seller": 3,
+      "id_product": 2,
+      "product_name": "Pisang Cavendish Sunpride",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/7/13/2114547/2114547_6f52965a-fdfc-4c4f-ba04-c1deb62e299f_929_929.jpg",
+      "qty": 1,
+      "price": 30000,
+      "id": 7
+    },
+    {
+      "id_user": "9",
+      "id_seller": 3,
+      "id_product": 5,
+      "product_name": "Buah Leci",
+      "image": "https://cf.shopee.co.id/file/e4c65bb6c6de5b8a3eefc459153f6c65",
+      "qty": 1,
+      "price": 20000,
+      "id": 8
     }
   ]
 }
