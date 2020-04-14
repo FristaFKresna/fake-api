@@ -87,7 +87,7 @@
       "id": 1,
       "name": "Apel Fuji",
       "price": 20000,
-      "stock": 20,
+      "stock": 19,
       "img_url": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/11/7/4503850/4503850_cce2c93e-03a7-41c1-a3ed-75a02be6431f_480_480.jpg",
       "id_penjual": 1,
       "deskripsi": "Apel Import Berkualitas"
@@ -275,7 +275,7 @@
     {
       "name": "Jeruk Nipis",
       "price": 20000,
-      "stock": 10,
+      "stock": 5,
       "img_url": "https://cdns.klimg.com/merdeka.com/i/w/news/2017/10/30/903576/670x335/22-manfaat-jeruk-nipis-untuk-kesehatan-wajah-dan-rambut.jpg",
       "deskripsi": "Jeruk Nipis Asiin",
       "id_penjual": 3,
@@ -284,129 +284,75 @@
   ],
   "carts": [
     {
-      "id_user": "4",
-      "id_seller": 1,
+      "id_pembeli": 4,
       "id_product": 1,
-      "product_name": "Apel Fuji",
-      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/11/7/4503850/4503850_cce2c93e-03a7-41c1-a3ed-75a02be6431f_480_480.jpg",
-      "qty": 3,
-      "price": 20000,
-      "id": 4
-    },
-    {
-      "id_user": "4",
-      "id_seller": 6,
-      "id_product": 15,
-      "product_name": "Telur Ayam",
-      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/1/24/27228651/27228651_73537011-6ca4-4bbf-b617-b3688dc51a94_629_597.png",
-      "qty": 2,
-      "price": 30000,
-      "id": 5
-    },
-    {
-      "id_user": "4",
-      "id_seller": 7,
-      "id_product": 20,
-      "product_name": "Nanas",
-      "image": "https://asset-a.grid.id/crop/49x52:489x339/700x465/photo/2020/01/05/1335171258.jpg",
-      "qty": 2,
-      "price": "30000",
-      "id": 6
-    },
-    {
-      "id_user": "9",
-      "id_seller": 3,
-      "id_product": 5,
-      "product_name": "Buah Leci",
-      "image": "https://cf.shopee.co.id/file/e4c65bb6c6de5b8a3eefc459153f6c65",
       "qty": 1,
-      "price": 20000,
-      "id": 7
-    },
-    {
-      "id_user": "9",
-      "id_seller": 3,
-      "id_product": 2,
-      "product_name": "Pisang Cavendish Sunpride",
-      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/7/13/2114547/2114547_6f52965a-fdfc-4c4f-ba04-c1deb62e299f_929_929.jpg",
-      "qty": 1,
-      "price": 30000,
-      "id": 8
-    },
-    {
-      "id_user": "9",
-      "id_seller": 1,
-      "id_product": 1,
-      "product_name": "Apel Fuji",
-      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/11/7/4503850/4503850_cce2c93e-03a7-41c1-a3ed-75a02be6431f_480_480.jpg",
-      "qty": 2,
-      "price": 20000,
-      "id": 9
+      "id": 1
     }
   ],
   "transaction": [
     {
-      "date": "4",
-      "jumlah_item": 1,
-      "Total": 30000,
-      "id_pembeli": 1,
-      "id": 1
+      "id": 1,
+      "date": "2020-03-26T03:46:00.393Z",
+      "total": 572000,
+      "id_pembeli": 4,
+      "items": [
+        {
+          "name": "Apel Fuja",
+          "price": 20000,
+          "qty": 1
+        },
+        {
+          "name": "Mangga",
+          "price": 30000,
+          "qty": 1
+        },
+        {
+          "name": "Leci",
+          "price": 14000,
+          "qty": 1
+        }
+      ]
     },
     {
-      "date": "23-3-2020 / 11:15:1 ",
-      "jumlah_item": 4,
-      "total": 90000,
-      "id_pembeli": "9",
+      "date": "2020-04-14T18:56:40.829Z",
+      "total": 120000,
+      "id_pembeli": 4,
+      "items": [
+        {
+          "name": "Apel Fuji",
+          "price": 20000,
+          "qty": 1
+        },
+        {
+          "name": "Jeruk Nipis",
+          "price": 20000,
+          "qty": 5
+        }
+      ],
       "id": 2
-    },
+    }
+  ],
+  "wishlist": [
     {
-      "date": "23-3-2020 / 13:5:19 ",
-      "jumlah_item": 4,
-      "total": 90000,
-      "id_pembeli": "9",
+      "id_pembeli": 4,
+      "id_product": 1,
       "id": 3
     },
     {
-      "date": "23-3-2020 / 13:6:11 ",
-      "jumlah_item": 4,
-      "total": 90000,
-      "id_pembeli": "9",
+      "id_pembeli": 4,
+      "id_product": 10,
       "id": 4
     },
     {
-      "date": "23-3-2020 / 13:15:19 ",
-      "jumlah_item": 4,
-      "total": 90000,
-      "id_pembeli": "9",
-      "id": 5
+      "id_pembeli": 4,
+      "id_product": 16,
+      "id": 6
+    },
+    {
+      "id_pembeli": 4,
+      "id_product": 14,
+      "id": 7
     }
-  ],
-  "transaction_detail": [
-    [
-      {
-        "name": "Buah Leci",
-        "id_product": 5,
-        "id_pembeli": "9",
-        "price": 20000,
-        "qty": 1,
-        "id_transaction": 4
-      },
-      {
-        "name": "Pisang Cavendish Sunpride",
-        "id_product": 2,
-        "id_pembeli": "9",
-        "price": 30000,
-        "qty": 1,
-        "id_transaction": 4
-      },
-      {
-        "name": "Apel Fuji",
-        "id_product": 1,
-        "id_pembeli": "9",
-        "price": 20000,
-        "qty": 2,
-        "id_transaction": 4
-      }
-    ]
   ]
 }
